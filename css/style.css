@@ -1,0 +1,103 @@
+/* header styles */
+
+
+.header{
+    max-width: 1440px;
+    width: 100%;
+}
+
+.div-class-header{
+    max-width: 1170px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 26.5px;
+    margin-left: 135px;
+    margin-right: 135px;
+}
+.navigation{
+    display: flex;
+    align-items: baseline;
+}
+
+.logo{
+    height: 31px;
+}
+
+.li-list1{
+    font-size: 13px;
+    margin-right: 46px;
+    font-family: 'DM Sans';
+    font-weight: bold;
+}
+.li-list2{
+
+    font-family: 'DM Sans';
+    font-weight: bold;
+    font-size: 13px;
+    margin-right: 46px;
+}
+
+.li-list3{
+    
+    font-family: 'DM Sans';
+    font-weight: bold;
+    font-size: 13px;
+    margin-right: 46px;
+}
+
+.li-list4{
+    font-family: 'DM Sans';
+    font-weight: bold;
+    font-size: 13px;
+    margin-right: 46px;
+}
+
+.li-list5{
+    font-family: 'DM Sans';
+    font-weight: bold;
+    font-size: 13px;
+    margin-right: 46px;
+}
+
+.li-list6{
+    font-family: 'DM Sans';
+    font-weight: bold;
+    font-size: 13px;
+}
+
+
+/* section #1 */
+
+.div-section-1{
+
+    max-width: 769px;
+    width: 100%;
+    margin-top: 157px;
+    margin-left: 135px;
+}
+
+.satauri-residential{
+    font-family: 'DM Sans';
+    font-weight: bold;
+    font-size: 22px;
+    color: #FF9900;
+    margin-bottom: 24px;
+}
+
+.paragraph-1{
+    max-width: 484px;
+    width: 100%;
+    font-size: 54px;
+    font-weight: bold;
+    line-height: 1.35;
+}
+
+.paragraph-2{
+    max-width: 499px;
+    width: 100%;
+    font-size: 17px;
+    font-family: 'Manrope';
+    line-height: 1.35;
+}
