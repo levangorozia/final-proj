@@ -1,6 +1,5 @@
 /* header styles */
 
-
 .header{
     max-width: 1440px;
     width: 100%;
@@ -70,18 +69,30 @@
 
 /* section #1 */
 
-.section1{
+.first-section{
     display: flex;
-    max-width: 1440px;
+    max-width: 1305px;
     width: 100%;
-    }
+}
 
-.div-section-1{
 
-    max-width: 768px;
+
+/* .section1{
+    display: flex;
+    max-width: 1305px;
+    width: 100%;
+    } */
+
+.left-div-blocks{
+    max-width: 768.6px;
     width: 100%;
     margin-top: 157px;
     margin-left: 135px;
+}   
+
+.div-block-1{
+    max-width: 768.6px;
+    width: 100%;
 }
 
 .satauri-residential{
@@ -175,7 +186,6 @@
 }
 
 
-
 .partners-block{
     max-width: 769px;
     width: 100%;
@@ -207,18 +217,65 @@
 /* backgroun-img styles */
 
 .header-img{
-    position: relative;
+    
     background-image: url(../images/HeaderImage.svg);
     height: 573px;
     max-width: 603px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    
-    left:15px;
-    top: 118px;
+    position: relative;
     right: 135px;
-    bottom: 20px;
+    top: 117px;
+    /* left:15px;
+    top: 118px;
+    right: 20px;
+    bottom: 20px; */
     color: #FFFFFF;
 }
 
+
+/* #section2 */
+ .section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+.div1{
+    max-width:262px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+}
+
+.div-section-2{
+    max-width: 1100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.paragraph-how{
+    font-size: 40px;
+}
+
+.div2{
+    max-width:260px;
+    width: 100%;
+
+}
+.div3{
+    max-width:260px;
+    width: 100%;
+
+}
+.div4{
+    max-width:260px;
+    width: 100%;
+
+}
