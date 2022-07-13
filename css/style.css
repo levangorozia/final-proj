@@ -70,9 +70,15 @@
 
 /* section #1 */
 
+.section1{
+    display: flex;
+    max-width: 1440px;
+    width: 100%;
+    }
+
 .div-section-1{
 
-    max-width: 769px;
+    max-width: 768px;
     width: 100%;
     margin-top: 157px;
     margin-left: 135px;
@@ -86,20 +92,81 @@
     margin-bottom: 24px;
 }
 
-.paragraph-1{
+.div-paragraph-1{
     max-width: 484px;
     width: 100%;
+    height: 146px;
+}
+.paragraph-1{
     font-size: 54px;
     font-weight: bold;
-    line-height: 1.35;
+    line-height: 1.2;
     margin-bottom: 23px;
 }
 
-.paragraph-2{
-    max-width: 499px;
+.div-paragraph-2{
+    max-width: 500px;
     width: 100%;
+    height: 46px;
+}
+
+.paragraph-2{
     font-size: 17px;
     font-family: 'Manrope';
+    font-weight: normal;
+    margin-bottom: 48px;
+}
+
+/* forms style */
+
+.div-form1{
+    max-width: 568px;
+    width: 100%;
+    max-height:86px;
+    height: 100%;
+    /* display: flex; */
+
+}
+
+.input-text{
+    max-width: 756px;
+    width: 100%;
+    max-height:86px;
+    height: 86px;
+    border: none;
+    padding-left: 20px;
+}
+
+.input-text:focus{
+    outline: none;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-form2{
+    max-width: 188px;
+    width: 100%;
+    display: flex;
+}
+
+.button-search{
+    max-width: 188px;
+    width: 100%;
+    height: 86px;
+    color: #FFFFFF;
+    background-color: #F85A47;
+    border: none;
+    position: absolute;
+    
+}
+
+
+.divebi{
+    display: flex;
 }
 
 
@@ -107,7 +174,6 @@
     max-width: 769px;
     width: 100%;
     height: 77px;
-    margin-left: 135px;
     margin-top: 145px;
 }
 .paragraph-our-amazing{
@@ -120,6 +186,24 @@
 .div-partners{
     display: flex;
     justify-content: space-between;
-
     margin-top: 27px;
 }
+
+/* backgroun-img styles */
+
+.header-img{
+    background-image: url(../images/HeaderImage.svg);
+    height: 573px;
+    max-width: 603px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* left:15px; */
+    top: 118px;
+    right: 135px;
+    bottom: 20px;
+    color: #FFFFFF;
+    
+}
+
