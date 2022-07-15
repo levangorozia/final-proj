@@ -127,6 +127,7 @@
 .div-forms{
     width: 756px;
     display: flex;
+    position: relative;
 }
 
 .div-form1{
@@ -157,14 +158,13 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    /* position: absolute; */
 }
 
 .div-form2{
     max-width: 188px;
     width: 100%;
     display: flex;
-    
+    position: relative;
 }
 
 .button-search{
@@ -219,10 +219,6 @@
     position: relative;
     right: 135px;
     top: 117px;
-    /* left:15px;
-    top: 118px;
-    right: 20px;
-    bottom: 20px; */
     color: #FFFFFF;
 }
 
@@ -648,6 +644,156 @@ justify-content: center;
         font-family: 'Manrope';
         font-weight: normal;
     }
+
+
+    .div-budget-size-type{
+        max-width: 384px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 37px;
+    }
+
+    .div-budget{
+        max-width: 97px;
+        width: 100%;
+        height: 58px;
+
+    }
+
+    .paragraph-budget{
+        font-size: 17px;
+        font-family: 'Manrope';
+        font-weight: bold;
+        margin-bottom: 12px;
+    }
+
+    .paragraph-confidential{
+        font-size: 17px;
+        font-family: 'Manrope';
+        font-weight: normal;
+    }
+
+
+    .div-size{
+        max-width: 70px;
+        width: 100%;
+        height: 58px;
+    }
+
+    .paragraph-size{
+        font-size: 17px;
+        font-family: 'Manrope';
+        font-weight: bold;
+        margin-bottom: 12px;
+    }
+
+    .paragraph-m2{
+        font-size: 17px;
+        font-family: 'Manrope';
+        font-weight: normal;
+    }
+
+
+    .div-type{
+        max-width: 47px;
+        width: 100%;
+        height: 58px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .paragraph-type{
+        font-size: 17px;
+        font-family: 'Manrope';
+        font-weight: bold;
+        margin-bottom: 12px;
+    }
+
+    .paragraph-office{
+        font-size: 17px;
+        font-family: 'Manrope';
+        font-weight: normal;
+    }
+
+
+    .div-status-location-flat{
+    max-width: 396px;
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+
+}
+
+    .div-status{
+    max-width: 97px;
+    width: 100%;
+    height: 58px;
+}
+
+    .paragraph-status{
+    font-size: 17px;
+    font-family: 'Manrope';
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+    .paragraph-done{
+    font-size: 17px;
+    font-family: 'Manrope';
+    font-weight: normal;
+}
+
+.div-location{
+    max-width: 93px;
+    width: 100%;
+    height: 58px;
+    margin-left: 80px;
+}
+
+.paragraph-location{
+    font-size: 17px;
+    font-family: 'Manrope';
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.paragraph-switzerland{
+    font-size: 17px;
+    font-family: 'Manrope';
+    font-weight: normal;
+}
+
+.div-flat{
+    max-width: 70px;
+    width: 100%;
+    height: 58px;
+    margin-left: 100px;
+}
+
+.paragraph-flat{
+    font-size: 17px;
+    font-family: 'Manrope';
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.paragraph-room{
+    font-size: 17px;
+    font-family: 'Manrope';
+    font-weight: normal;
+}
+
+
+
+
+
+
+
+
+
 
 
 /* footer styles */
