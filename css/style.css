@@ -542,19 +542,36 @@ justify-content: center;
     max-width: 1440px;
     width: 100%;
     display: flex;
-   
     justify-content: center;
     }
 
-   
+   .mshobeli-divi-section4{
+    max-width: 1170px;
+    width: 100%;
+    height: 800px;
+    display: flex;
+   flex-direction: column;
+
+   }
+
+
 .main-divi-section4{
-    width: 1170px;
+    max-width: 1170px;
     width: 100%;
     display: flex;
 
     }
 
-.div-featured{
+    .div-featured1{
+    max-width: 1170px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 95px;
+    }
+
+.div-featured2{
     max-width: 763px;
     height: 55px;
     width: 100%;
@@ -717,7 +734,6 @@ justify-content: center;
     max-width: 396px;
     width: 100%;
     display: flex;
-    /* justify-content: space-between; */
 
 }
 
@@ -802,10 +818,220 @@ justify-content: center;
     font-weight: 500;
 }
 
+/* section #5 styles */
 
 
+.section5{
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    }
 
-/* footer styles */
+.mshobeli-divi-section5{
+    max-width: 1200px;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 51px;
+   } 
+
+
+.div-business1{
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    }
+
+.div-business2{
+    max-width: 570px;
+    width: 100%;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    }
+
+.loved-businesses{
+    font-size: 40px;
+    font-family: 'Manrope';
+    font-weight: 600;
+    line-height: 1.5;
+    }
+
+.div-blocks-section5{
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-left-block{
+    max-width: 380px;
+    width: 100%;
+    height: 367px;
+    padding-left: 38px;
+}
+
+.div-middle-block{
+
+    max-width: 380px;
+    width: 100%;
+    height: 367px;
+    padding-left: 38px;
+}
+
+.div-right-block{
+    max-width: 380px;
+    width: 100%;
+    height: 367px;
+    padding-left: 38px;
+}
+
+ 
+
+.div-paragraph-moderate{
+    max-width: 270px;
+    width: 100%;
+    height: 112px;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    margin-top: 33px;
+}
+.paragraph-moderate{
+    font-size: 15px;
+    font-family: 'Manrope';
+    font-weight: normal;
+    line-height: 1.6;
+}
+
+.div-collecting{
+    max-width: 270px;
+    width: 100%;
+    height: 112px;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    margin-top: 33px;
+}
+
+.paragraph-collecting{
+    font-size: 15px;
+    font-family: 'Manrope';
+    font-weight: normal;
+    line-height: 1.6;
+}
+
+.div-sociable{
+    max-width: 270px;
+    width: 100%;
+    height: 112px;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    margin-top: 33px;
+}
+
+.paragraph-sociable{
+    font-size: 15px;
+    font-family: 'Manrope';
+    font-weight: normal;
+    line-height: 1.6;
+}
+
+.review-img{
+    margin-top: 50px;
+}
+
+.div-jane-cooper{
+    max-width: 172px;
+    width: 100%;
+    display: flex;
+    margin-top: 53px;
+}
+
+.mini-div-cooper{
+    max-width: 104px;
+    width: 100%;
+    height: 42px;
+    margin-left: 20px;
+}
+.paragraph-jane{
+    font-size: 16px;
+    font-family: 'Manrope';
+    font-weight: bold;
+    padding-top: 10px;
+    margin-bottom: 2px;
+}
+
+.paragraph-los-angeles{
+    font-size: 14px;
+    font-family: 'Manrope';
+    font-weight: normal;
+
+}
+
+.div-robert{
+    max-width: 178px;
+    width: 100%;
+    display: flex;
+    margin-top: 53px;
+}
+
+.mini-div-robert{
+    max-width: 110px;
+    width: 100%;
+    height: 42px;
+    margin-left: 20px;
+}
+.paragraph-robert{
+    font-size: 16px;
+    font-family: 'Manrope';
+    font-weight: bold;
+    padding-top: 10px;
+    margin-bottom: 2px;
+}
+
+.paragraph-newyork{
+    font-size: 14px;
+    font-family: 'Manrope';
+    font-weight: normal;
+
+}
+
+.div-leslie{
+    max-width: 195px;
+    width: 100%;
+    display: flex;
+    margin-top: 53px;
+}
+
+.mini-div-leslie{
+    max-width: 127px;
+    width: 100%;
+    height: 42px;
+    margin-left: 20px;
+}
+.paragraph-leslie{
+    font-size: 16px;
+    font-family: 'Manrope';
+    font-weight: bold;
+    padding-top: 10px;
+    margin-bottom: 2px;
+}
+
+.paragraph-Buffalo{
+    font-size: 14px;
+    font-family: 'Manrope';
+    font-weight: normal;
+
+}
+
+
+/*  footer styles */
 
 .footer{
     width: 1440px;
