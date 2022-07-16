@@ -325,6 +325,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center; 
+    position: relative;
 }
 
 .search-box-icon{
@@ -363,6 +364,25 @@
     font-family: 'Roboto';
     font-weight: normal;
     line-height: 1.6;
+}
+
+.div-group19{
+    background-image: url(../images/Group\ 19.svg);
+    width: 210px;
+    height: 11px;
+    position: absolute;
+    left: 400px;
+    bottom: -46%;
+}
+
+.div-group20{
+    background-image: url(../images/Group\ 20.svg);
+    width: 210px;
+    height: 11px;
+    position: absolute;
+    left: 50%;
+    bottom: -46%;
+
 }
 
 .div3{
@@ -1128,8 +1148,8 @@ justify-content: center;
 
 .a-check-our{
     color: #2CBDE7;
+    border-bottom: 2px solid;
 }
-
 
 
 
