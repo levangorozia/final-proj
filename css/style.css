@@ -3,6 +3,8 @@
 .header{
     max-width: 1440px;
     width: 100%;
+    position: absolute;
+    z-index: 100;
 }
 
 .div-class-header{
@@ -27,9 +29,24 @@
 .li-list1{
     font-size: 13px;
     margin-right: 46px;
+    height: 20px;
     font-family: 'DM Sans';
     font-weight: bold;
+    position: relative;
 }
+
+
+.li-list1::after{
+    content: "";
+    position: absolute;
+    left:0;
+    bottom:0px;
+    height: 2px;
+    width: 100%;
+    background-color: black;
+}
+
+
 .li-list2{
 
     font-family: 'DM Sans';
@@ -73,14 +90,21 @@
     display: flex;
     max-width: 1440px;
     width: 100%;
+    padding-left: 135px;
 }
 
+.mshobeli-divi-section1{
+    max-width: 1305px;
+    width: 100%;
+    display: flex;
+   /* padding-left: 135px; */
+}
 
 .left-div-blocks{
-    max-width: 768.6px;
+    max-width: 768px;
     width: 100%;
     margin-top: 157px;
-    margin-left: 135px;
+   
 }   
 
 .div-block-1{
@@ -127,7 +151,9 @@
 .div-forms{
     width: 756px;
     display: flex;
-    position: relative;
+    position: absolute;
+    z-index: 95;
+    margin-left: 6px;
 }
 
 .div-form1{
@@ -135,8 +161,12 @@
     width: 100%;
     max-height:86px;
     height: 100%;
-    /* display: flex; */
-
+    
+}
+.div-form2{
+    max-width: 188px;
+    width: 100%;
+    display: flex;
 }
 
 .input-text{
@@ -160,12 +190,7 @@
     position: relative;
 }
 
-.div-form2{
-    max-width: 188px;
-    width: 100%;
-    display: flex;
-    position: relative;
-}
+ 
 
 .button-search{
     max-width: 188px;
@@ -174,7 +199,6 @@
     color: #FFFFFF;
     background-color: #F85A47;
     border: none;
-    
 }
 
 
@@ -182,7 +206,7 @@
     max-width: 769px;
     width: 100%;
     height: 77px;
-    margin-top: 145px;
+    margin-top: 285px;
 }
 .paragraph-our-amazing{
     font-size: 17px;
@@ -206,22 +230,46 @@
     margin-left: 5px;
 }
 
-/* backgroun-img styles */
+
 
 .header-img{
     
     background-image: url(../images/HeaderImage.svg);
     height: 573px;
-    max-width: 603px;
-    width: 100%;
-    background-repeat: no-repeat;
+   width: 603px;
+    /* width: 100%; */
     background-size: cover;
-    position: relative;
+    position: absolute;
+    z-index: 90;
     right: 135px;
-    top: 117px;
+    top: 184px;
     color: #FFFFFF;
 }
 
+
+.header-img2{
+    background-image: url(../images/iisferi-img.svg);
+    height: 841px;
+    max-width: 511px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    right: 0px;
+    bottom: 10%;
+    margin-left: 25px;
+}
+
+.social-icons{
+    background-image: url(../images/Social\ Icons.svg);
+    height: 158px;
+    max-width: 21px;
+    width: 100%;
+    position: absolute;
+    right: 40px;
+    top: 50%;
+
+
+}
 
 /* #section2 */
 
@@ -500,12 +548,33 @@ justify-content: center;
     justify-content: space-between;
     margin-bottom: 45px;
 }
+.div-residential-property{
+    max-width: 186px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
 
 .paragraph-residential-property{
 
     font-size: 19px;
     font-family: 'Manrope';
     font-weight: 600;
+    color: #F85A47;
+    position: relative;
+   padding-bottom: 12px;
+}
+
+.paragraph-residential-property::after{
+    content: "";
+    position: absolute;
+    left:0;
+    bottom:0px;
+    height: 2px;
+    width: 100%;
+    background-color: #F85A47;
 }
 
 .parapraph-commercial{
@@ -599,8 +668,7 @@ justify-content: center;
 
     .background-img-mask{
     background-image: url(../images/Mask\ Group.jpg);
-    max-width: 493px;
-    width: 100%;
+    width: 493px;
     height: 364px;
     position: relative;
     top: 40px;
@@ -1057,11 +1125,10 @@ justify-content: center;
 }
 
 
-.paragraph-contact::after{
-    content: "check our pricing plans";
+.a-check-our{
     color: #2CBDE7;
-
 }
+
 
 
 
