@@ -185,7 +185,8 @@
 /* forms style */
 
 .div-forms{
-    width: 756px;
+    max-width: 756px;
+    width: 100%;
     display: flex;
     position: absolute;
     z-index: 95;
