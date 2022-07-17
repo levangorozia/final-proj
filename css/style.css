@@ -5,6 +5,7 @@
     width: 100%;
     position: absolute;
     z-index: 100;
+    position: fixed;
 }
 
 .div-class-header{
@@ -35,6 +36,12 @@
     position: relative;
 }
 
+.li-list1:hover{
+    transform: scale(1.175);
+    transition: 0.3s linear;
+    background-color: #33cfb0;
+}
+
 
 .li-list1::after{
     content: "";
@@ -55,6 +62,12 @@
     margin-right: 46px;
 }
 
+.li-list2:hover{
+    transform: scale(1.175);
+    transition: 0.3s linear;
+    background-color: #33cfb0;
+}
+
 .li-list3{
     
     font-family: 'DM Sans';
@@ -63,11 +76,24 @@
     margin-right: 46px;
 }
 
+.li-list3:hover{
+    transform: scale(1.175);
+    transition: 0.3s linear;
+    background-color: #33cfb0;
+}
+
+
 .li-list4{
     font-family: 'DM Sans';
     font-weight: bold;
     font-size: 13px;
     margin-right: 46px;
+}
+
+.li-list4:hover{
+    transform: scale(1.175);
+    transition: 0.3s linear;
+    background-color: #33cfb0;
 }
 
 .li-list5{
@@ -76,11 +102,21 @@
     font-size: 13px;
     margin-right: 46px;
 }
-
+.li-list5:hover{
+    transform: scale(1.175);
+    transition: 0.3s linear;
+    background-color: #33cfb0;
+}
 .li-list6{
     font-family: 'DM Sans';
     font-weight: bold;
     font-size: 13px;
+}
+
+.li-list6:hover{
+    transform: scale(1.175);
+    transition: 0.3s linear;
+    background-color: #33cfb0;
 }
 
 
@@ -153,7 +189,7 @@
     display: flex;
     position: absolute;
     z-index: 95;
-    margin-left: 6px;
+    margin-left: 6.5px;
 }
 
 .div-form1{
@@ -372,7 +408,7 @@
     height: 11px;
     position: absolute;
     left: 400px;
-    bottom: -46%;
+    bottom: -63%;
 }
 
 .div-group20{
@@ -380,8 +416,8 @@
     width: 210px;
     height: 11px;
     position: absolute;
-    left: 50%;
-    bottom: -46%;
+    left: 55%;
+    bottom: -63%;
 
 }
 
