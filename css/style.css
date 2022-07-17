@@ -10,7 +10,8 @@
 .header{
     max-width: 1440px;
     width: 100%;
-    position: absolute;
+    position: relative;
+    background-color: #f1db8d;
     z-index: 100;
     position: fixed;
 }
@@ -298,22 +299,20 @@
 /* forms style */
 
 .div-forms{
-    max-width: 756px;
+    max-width: 854px;
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     position: absolute;
     z-index: 95;
-    margin-left: 6.5px;
 }
 
 .div-form1{
-    max-width: 568px;
+    max-width: 667px;
     width: 100%;
     max-height:86px;
     height: 100%;
-    
 }
 .div-form2{
     max-width: 188px;
@@ -404,8 +403,8 @@
     
     background-image: url(../images/HeaderImage.svg);
     height: 573px;
-   width: 603px;
-    /* width: 100%; */
+   max-width: 603px;
+    width: 100%;
     background-size: cover;
     position: absolute;
     z-index: 90;
@@ -424,7 +423,7 @@
     position: relative;
     right: 0px;
     bottom: 10%;
-    margin-left: 25px;
+    margin-left: 25px; 
 }
 
 .social-icons{
@@ -464,6 +463,7 @@
             flex-direction: column;
     margin-top: 223px;
     margin-left: 170px;
+    position: relative;
 }
 
 .div1{
@@ -572,20 +572,22 @@
 
 .div-group19{
     background-image: url(../images/Group\ 19.svg);
-    width: 210px;
+    max-width: 210px;
+    width: 100%;
     height: 11px;
     position: absolute;
-    left: 400px;
-    bottom: -63%;
+    left: 235px;
+    bottom: 210px;
 }
 
 .div-group20{
     background-image: url(../images/Group\ 20.svg);
-    width: 210px;
+    max-width: 210px;
+    width: 100%;
     height: 11px;
     position: absolute;
-    left: 55%;
-    bottom: -63%;
+    right: 235px;
+    bottom: 210px;
 
 }
 
@@ -1007,7 +1009,8 @@ display: flex;
 
     .background-img-office{
     background-image: url(../images/Image.svg);
-    width: 440px;
+    max-width: 440px;
+    width: 100%;
     height: 290px;
     position: relative;
     right:40px;
@@ -1544,7 +1547,8 @@ display: flex;
 /*  footer styles */
 
 .footer{
-    width: 1440px;
+    max-width: 1440px;
+    width: 100%;
     background-color: #FBFCFC;
 }
 

@@ -1,0 +1,299 @@
+
+
+
+@media(max-width:1441px){
+
+    .header{
+        max-width: 1236px;
+        width: 100%;
+        position: fixed;
+  
+    }
+
+    .nav-bar{
+        display: flex;
+        align-items: center;
+    }
+
+     .first-section{
+        max-width: 1236px;
+        width: 100%;
+       padding-left: 50px;
+    }
+    .section2{
+        max-width: 1236px;
+        width: 100%;
+    }
+
+    .mshobeli-divi{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .section3{
+        max-width: 1236px;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 50px;
+    }
+
+    .section4{
+        max-width: 1170px;
+        width: 100%;
+        margin-left: 50px;
+    }
+
+    .section5{
+        max-width: 1170px;
+        width: 100%;
+        margin-left: 50px;
+    }
+
+    .footer{
+    max-width: 1236px;
+    width: 100%;
+    padding-left: 65px ;
+    }
+    
+    .div-class-header{
+        margin-left: 50px;
+    }
+
+     .left-div-blocks{
+        max-width: 650px;
+        width: 100%;
+    }  
+
+    .div-form1{
+        max-width: 600px;
+        width: 100%;
+    }
+
+    .header-img{
+        max-width: 460px;
+        width: 100%;
+    }  
+}
+
+
+
+@media(max-width:1290px){
+    .partners-block{
+        max-width: 650px;
+        width: 100%;
+        height: 150px;
+    }
+
+    .div-partners{
+        height: 100px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .paragraph-1{
+        font-size: 40px;
+        font-weight: bold;
+        line-height: 1.1;
+    }
+    .div-paragraph-2{
+        max-width: 450px;
+        width: 100%;
+        height: 80px;
+        margin-bottom: 30px;
+    }
+    .div-section-2{
+        max-width: 1075px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .div-group19{
+        left: 260px;
+    }
+    .div-group20{
+        right: 260px;
+    }
+    .satauri-how{
+        font-size: 30px;
+    }
+    .section3{
+        max-width: 1100px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .div-section3-mshobeli{
+        display: flex;
+        justify-content: space-around;
+    }
+    .section2{
+        display: flex;
+        justify-content: space-around;
+    }
+    .div-all-property{
+        display: flex;
+        justify-content: space-around;
+        margin-left: 90px;
+    }
+    .satauri-featured{
+        font-size: 30px;
+        }
+    .div-business1{
+        display: flex;
+        justify-content: center;
+    }
+    .loved-businesses{
+        font-size: 30px;
+        line-height: 1.4;
+        }
+    
+    .div-paragraph-newsletter{
+        display: flex;
+        justify-content: center;
+
+    }
+    
+    .paragraph-newsletter{
+        font-size: 35px;
+    }
+    .div-class-header{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .main-div-block-section4{
+        max-width: 1150px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+}
+
+
+
+@media(max-width:1240px){
+
+    .input-text{
+    max-width: 400px;
+    width: 100%;
+    }
+
+    .div-paragraph-1{
+        max-width: 400px;
+         width: 100%;
+    }
+
+    .div-paragraph-2{
+        max-width: 400px;
+         width: 100%;
+    }
+
+    .header{
+        max-width: 1075px;
+        width: 100%;
+    }
+
+    .div-class-header{
+        margin-left: 0;
+        padding-left: 30px;
+    }
+
+    .header-img{
+        max-width: 450px;
+        width: 100%;
+        right: 72px;
+    }
+
+    .header-img2{
+        max-width: 498px;
+        width: 100%;
+
+    }
+    
+
+    .left-div-blocks{
+        max-width: 500px;
+        width: 100%;
+    }  
+
+     .div-form1{
+        max-width: 500px;
+        width: 100%;
+    } 
+
+    .header-img{
+        max-width: 460px;
+        width: 100%;
+    } 
+
+
+    .div-cardimages{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+    }
+
+    .footer{
+        max-width: 1075px;
+        width: 100%;
+        padding-left:50px ;
+        }
+    
+        .social-icons{
+            right: 20px;
+        }
+    
+        .main-div-block-section4{
+            height: 1000px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+}
+
+
+/* 
+ @media(max-width:1120px){
+
+
+
+    .section2{
+        max-width: 1100px;
+        width: 100%;
+    }
+    .mshobeli-divi{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+   
+
+    .section4{
+        margin-left: 5px;
+        max-width: 1100px;
+        width: 100%;
+    }
+
+    .section5{
+        margin-left: 5px;
+        max-width: 1100px;
+        width: 100%;
+    }
+
+ 
+.div-section3-mshobeli{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-divi-section3{
+    max-width: 750px;
+    width: 100%;
+} 
+
+.paragraph-residential-property{
+    padding-left: 10px;
+}
+}  */
