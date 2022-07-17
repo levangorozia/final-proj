@@ -921,10 +921,11 @@ display: flex;
             justify-content: center;
     }
 
+
    .mshobeli-divi-section4{
     max-width: 1170px;
     width: 100%;
-    height: 800px;
+    /* height: 800px; */
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -985,7 +986,7 @@ display: flex;
         max-width: 1170px;
         width: 100%;
         background-color: #F1FFFF;
-        height: 650px;
+        /* height: 650px; */
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -1508,9 +1509,7 @@ display: flex;
 
 }
 
-/* .partners-block2{
 
-} */
 .div-partners2{
     max-width: 1200px;
     width: 100%;

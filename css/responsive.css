@@ -231,8 +231,9 @@
 
     .div-cardimages{
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
         align-items:center;
+        justify-content: center;
     }
 
     .footer{
@@ -244,13 +245,85 @@
         .social-icons{
             right: 20px;
         }
+
+    .section4{
+            max-width: 1075px;
+            width: 100%;
+            margin-left: 50px;
+        }
+        .mshobeli-divi-section4{
+            max-width: 1075px;
+            width: 100%;
+    
+        }
     
         .main-div-block-section4{
-            height: 1000px;
+            max-width: 1075px;
+            width: 100%;
             display: flex;
-            flex-direction: column;
+            flex-direction: column; 
+            align-items: center;
+            
+        }
+        .div-blocks-section5{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+        }
+
+        .div-partners2{
+            display: flex;
+            flex-wrap: wrap;
+            height: 200px;
+            align-items: center;
             justify-content: center;
         }
+
+    .mshobeli-divi-section5{
+            height: 1100px;
+
+        }
+
+    .div-contact{
+
+            margin-left: 10px;
+        
+        }
+    .div-partners2{
+            margin-left: 0px;
+        }
+
+        .div-all-property{
+
+            display: flex;
+           flex-direction: column;
+           height: 180px;
+        }
+
+        .div-group19{
+            display: none;
+        }
+        .div-group20{
+            display: none;
+        }
+
+        .div-section-2{
+            height: 400px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .mshobeli-divi{
+            margin-top: 40px;
+        }
+
+        .div1{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+
+     
 }
 
 
