@@ -230,6 +230,14 @@
     width: 100%;
 }
 
+.burger-bar{
+    display: none;
+}
+.fa-bars{
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
 /* section #1 */
 
 .first-section{
@@ -247,7 +255,6 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-   /* padding-left: 135px; */
 }
 
 .left-div-blocks{
